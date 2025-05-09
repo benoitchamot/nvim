@@ -16,7 +16,11 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvi
 A C compiler is required to compile and install some of the plugins.
 
 ```bash
+# Debian/Ubuntu
 sudo apt install build-essential
+
+# Arch Linux
+sudo pacman -S base-devel
 ```
 
 ## Install

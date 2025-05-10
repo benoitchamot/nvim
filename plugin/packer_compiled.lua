@@ -129,6 +129,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/bcha/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["zig.vim"] = {
+    loaded = true,
+    path = "/home/bcha/.local/share/nvim/site/pack/packer/start/zig.vim",
+    url = "https://github.com/ziglang/zig.vim"
   }
 }
 

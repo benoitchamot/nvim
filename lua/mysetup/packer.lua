@@ -42,6 +42,9 @@ return require('packer').startup(function(use)
   -- LSP Config
   use('neovim/nvim-lspconfig')
 
+  -- Zig LSP
+  use('ziglang/zig.vim')
+
 end)
 
 

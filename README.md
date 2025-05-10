@@ -54,3 +54,6 @@ More magic happens.
 `:lua ColorMyPencils()`
 
 It should now be up and running and everything is nice.
+
+# OS clipboard support
+Clipboard support is enabled in `lua/mysetup/set.lua`. To use, simply yank like you normally would to copy from Neovim and paste with `Ctrl-v` (or the macOS equivalent) into another program. It is also possible to paste from the OS into Neovim with `Ctrl-v`.

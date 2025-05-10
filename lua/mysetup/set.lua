@@ -23,3 +23,9 @@ vim.opt.incsearch = true
 
 -- Terminal colours
 vim.opt.termguicolors = true
+
+-- Sync clipboard between OS and Neovim
+-- See :help 'clipboard'
+vim.schedule(function()
+    vim.opt.clipboard = 'unnamedplus'
+end)

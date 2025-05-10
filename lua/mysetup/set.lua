@@ -29,3 +29,7 @@ vim.opt.termguicolors = true
 vim.schedule(function()
     vim.opt.clipboard = 'unnamedplus'
 end)
+
+-- Show which line your cursor is on
+vim.opt.cursorline = true
+

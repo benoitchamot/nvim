@@ -4,14 +4,9 @@ This is just my Neovim configuration. Download Neovim here: https://neovim.io/
 ## Inspiration
 This is shamelessly inspired by https://github.com/ThePrimeagen/init.lua/tree/249f3b14cc517202c80c6babd0f9ec548351ec71
 
+Another big source of inspiration for v0.2.x is: https://github.com/nvim-lua/kickstart.nvim
+
 ## Requirements
-### Install Packer
-See https://github.com/wbthomason/packer.nvim 
-
-```bash
-git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
-```
-
 ### Install `gcc`
 A C compiler is required to compile and install some of the plugins.
 
@@ -32,7 +27,12 @@ git clone https://github.com/benoitchamot/nvim.git
 cd nvim
 ```
 
-3. Open Neovim from inside neovim
+Of simply for Arch:
+```bash
+sudo pacman -S neovim
+```
+
+3. Open the config directory with Neovim
 ```bash
 nvim .
 ```
@@ -41,8 +41,8 @@ You will probably see a lot of things fail and it will take time to open.
 
 Don't panic.
 
-4. Navigate to `lua/mysetup/packer.lua`
-Run `:so` and `:PackerSync.`
+4. Run Lazy
+Run `:Lazy sync.`
 
 Let the magic happen.
 
